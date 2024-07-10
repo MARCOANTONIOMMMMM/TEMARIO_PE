@@ -7560,10 +7560,10 @@ a.anchor-link {
 <li><a href="#Ejercicio-11">Ejercicio 11</a></li>
 <li><a href="#Ejercicio-12">Ejercicio 12</a></li>
 <li><a href="#Ejercicio-13">Ejercicio 13</a></li>
-<li><a href="#">Ejercicio 14</a>    </li>
+<li><a href="#Ejercicio-14">Ejercicio 14</a>    </li>
 <li><a href="#Ejercicio-15">Ejercicio 15</a></li>
 <li><a href="#Ejercicio-16">Ejercicio 16</a></li>
-<li><a href="#">Ejercicio 17</a></li>
+<li><a href="#Ejercicio-17">Ejercicio 17</a></li>
 </ul>
 </div>
 </div>
@@ -8498,7 +8498,134 @@ $$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><a id="Ejercicio-15"><a></a></a></p>
+
+
+  <p><a id="Ejercicio-15"><a></a></a></p>
+<h1 id="Ejercicio-14">Ejercicio 14<a class="anchor-link" href="#Ejercicio-14">¶</a></h1><p><a href="#Contenido">Contenido</a></p>
+  <h2 id="14.-S%C3%B3lo-para-practicar.-Los-n%C3%BAmeros-telef%C3%B3nicos-en-la-ciudad-de-Cuernavaca,-Morelos,-constan-de-siete-d%C3%ADgitos.">9. Sólo para practicar. Los números telefónicos en la ciudad de Cuernavaca, Morelos, constan de siete dígitos.<a class="anchor-link" href="#9.-S%C3%B3lo-para-practicar.-Los-n%C3%BAmeros-telef%C3%B3nicos-en-la-ciudad-de-Cuernavaca,-Morelos,-constan-de-siete-d%C3%ADgitos.">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=906b9952-dadd-436d-81ca-4c79676aa9ef">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="a-)-%C2%BFCu%C3%A1ntas-l%C3%ADneas-telef%C3%B3nicas-pueden-crearse-en-esa-ciudad?-Recuerda-que-no-pueden-comenzar-con-cero.">a ) ¿Cuántas líneas telefónicas pueden crearse en esa ciudad? Recuerda que no pueden comenzar con cero.<a class="anchor-link" href="#a-)-%C2%BFCu%C3%A1ntas-l%C3%ADneas-telef%C3%B3nicas-pueden-crearse-en-esa-ciudad?-Recuerda-que-no-pueden-comenzar-con-cero.">¶</a></h3><p>La pregunta indica que los números telefónicos en Cuernavaca constan de 7 dígitos y no pueden comenzar con 0. Esto significa que tenemos 9 posibilidades para el primer dígito (del 1 al 9) y 10 posibilidades (del 0 al 9) para cada uno de los otros 6 dígitos.
+Para calcular el número total de líneas telefónicas, se utiliza la siguiente fórmula:
+El número total de líneas telefónicas que pueden crearse en Cuernavaca se calcula como:</p>
+<p>\begin{align*}
+\text{Número total de líneas} &amp;= 9 \times 10^6 \
+&amp;= 9 \times \underbrace{10 \times 10 \times 10 \times 10 \times 10 \times 10}_{\text{6 dígitos restantes}}
+\end{align*}
+Donde:
+Hay 9 posibilidades para el primer dígito (de 1 a 9)
+Hay 10 posibilidades para cada uno de los otros 6 dígitos (de 0 a 9)
+Por lo tanto, el número total de líneas telefónicas que pueden crearse es $9 \times 10^6 = 9,000,000$.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=150e1aa1-4994-423e-9b47-134cc5d00659">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># a) Cálculo del número total de líneas telefónicas</span>
+<span class="n">total_lines</span> <span class="o">=</span> <span class="mi">9</span> <span class="o">*</span> <span class="mi">10</span><span class="o">**</span><span class="mi">6</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Número total de líneas telefónicas: </span><span class="si">{</span><span class="n">total_lines</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Número total de líneas telefónicas: 9000000
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d779f068-0f6d-4eb3-b1ac-bece5a0282f5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="b-)-Si-los-tres-primeros-d%C3%ADgitos-representan-una-zona-de-Cuernavaca,%C2%BFcu%C3%A1ntas-l%C3%ADneas-telef%C3%B3nicas-pertenecen-a-la-zona-326?">b ) Si los tres primeros dígitos representan una zona de Cuernavaca,¿cuántas líneas telefónicas pertenecen a la zona 326?<a class="anchor-link" href="#b-)-Si-los-tres-primeros-d%C3%ADgitos-representan-una-zona-de-Cuernavaca,%C2%BFcu%C3%A1ntas-l%C3%ADneas-telef%C3%B3nicas-pertenecen-a-la-zona-326?">¶</a></h3><p>Los tres primeros dígitos representan una zona de Cuernavaca. Esto significa que para la zona 326, el primer dígito es 3, el segundo es 2 y el tercero es 6.
+Para calcular el número de líneas telefónicas en esta zona, tenemos 10 posibilidades (de 0 a 9) para cada uno de los 4 dígitos restantes.</p>
+<p>El número de líneas telefónicas que pertenecen a la zona 326 en Cuernavaca se calcula como:
+\begin{align*}
+\text{Número de líneas en la zona 326} &amp;= 1 \times 10^4 \
+&amp;= 1 \times \underbrace{10 \times 10 \times 10 \times 10}_{\text{4 dígitos restantes}}
+\end{align*}
+Donde:
+Hay 1 posibilidad para los 3 primeros dígitos (326)
+Hay 10 posibilidades para cada uno de los 4 dígitos restantes (de 0 a 9)
+Por lo tanto, el número de líneas telefónicas que pertenecen a la zona 326 es $1 \times 10^4 = 10,000$.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=05c2cf62-5adf-432a-ac2e-f68f29dee825">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># b) Cálculo del número de líneas telefónicas en la zona 326</span>
+<span class="n">zone_326_lines</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">*</span> <span class="mi">1</span> <span class="o">*</span> <span class="mi">1</span> <span class="o">*</span> <span class="mi">10</span><span class="o">**</span><span class="mi">4</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Número de líneas telefónicas en la zona 326: </span><span class="si">{</span><span class="n">zone_326_lines</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Número de líneas telefónicas en la zona 326: 10000
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=45dd2552-2e41-407c-b584-df9b0291ca5f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="Ejercicio-10"><a></a></a></p>
+<h1 id="Ejercicio-10">Ejercicio 10<a class="anchor-link" href="#Ejercicio-10">¶</a></h1><p><a href="#Contenido">Contenido</a></p>
+<h2 id="10.-S%C3%B3lo-para-practicar.-Se-tiene-la-palabra-MURCI%C3%89LAGO.-Si-no-se-permiten-repeticiones-al-usar-las-letras-que-la-forman,-determina:">10. Sólo para practicar. Se tiene la palabra MURCIÉLAGO. Si no se permiten repeticiones al usar las letras que la forman, determina:<a class="anchor-link" href="#10.-S%C3%B3lo-para-practicar.-Se-tiene-la-palabra-MURCI%C3%89LAGO.-Si-no-se-permiten-repeticiones-al-usar-las-letras-que-la-forman,-determina:">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=14d57f8c-8eb1-42d7-af50-c2af10a9ad2c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+
+
+  <p><a id="Ejercicio-15"><a></a></a></p>
 <h1 id="Ejercicio-15">Ejercicio 15<a class="anchor-link" href="#Ejercicio-15">¶</a></h1><p><a href="#Contenido">Contenido</a></p>
 <p><strong>15. Futbol.</strong> Tres parejas (tres hombres y tres mujeres) compran boletos para ir a un partido de los Pumas. Cuando llegan al estadio de Ciudad Universitaria les surge la duda de cómo sentarse en la fila. ¿De cuántas maneras pueden hacerlo si:</p>
 <p><strong>a)</strong> No hay restricciones?</p>
